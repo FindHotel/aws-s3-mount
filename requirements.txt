@@ -1,0 +1,3 @@
+devpi-server
+devpi-client
+devpi-web
