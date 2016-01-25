@@ -4,7 +4,7 @@
 
 #### Run container to mount s3 folder
 
-    docker run -d --name aws-s3-mount-folder innovativetravel/aws-s3-mount
+    docker run -d --name aws-s3-mount-some-bucket-folder innovativetravel/aws-s3-mount -e AWS_ACCESS_KEY_ID=key -e AWS_SECRET_ACCESS_KEY=secret -e S3_PATH=some-bucket/folder
 
 Environment variables to configure
 
