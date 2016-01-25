@@ -16,7 +16,7 @@ Environment variables to configure
 
 Volumes exported
 
-* /mnt/s3/<s3 path>
+* /mnt
 
 
 ##License
